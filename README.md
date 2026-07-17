@@ -6,16 +6,15 @@ every disclosed lender against OFAC sanctions, BIS export-control lists,
 and a curated list of foreign state-owned/state-controlled financial
 institutions.
 
-CLI tool. No web deploy (Render is full at 25/25 — see portfolio CLAUDE.md).
 
 ---
 
 ## The Gap This Fills
 
-[FriendShore](https://github.com/JakPot42/friendshore-supply-chain) (P3)
+[FriendShore](https://github.com/JakPot42/friendshore-supply-chain)
 maps a defense supplier's *physical* supply chain — parts, sub-tier
 vendors, single points of failure. [DIB Monitor](https://github.com/JakPot42/dib-monitor)
-(P10) tracks *equity-level* distress — going-concern language, debt
+ tracks *equity-level* distress — going-concern language, debt
 covenants, earnings signals. **Neither tracks who is lending the money.**
 13F filings show equity ownership changes; they say nothing about a
 credit facility's administrative agent or a bond issuance's underwriter.
@@ -23,8 +22,8 @@ A foreign state-connected institution can become a Tier 2 defense
 supplier's primary lender without appearing in either physical supply
 chain data or equity ownership data. This project closes that specific
 gap — the third piece of the supply-chain financial intelligence cluster
-alongside FriendShore and DIB Monitor (and reuses GhostTrace's (P6) and
-CFIUS Screener's (P7) sanctions-screening and entity-resolution
+alongside FriendShore and DIB Monitor (and reuses GhostTrace's and
+CFIUS Screener's sanctions-screening and entity-resolution
 techniques directly, the same cluster referenced as "Arbor" in the
 portfolio's deferred Merger Vision).
 
